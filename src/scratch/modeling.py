@@ -17,7 +17,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 # confusion matrix: helps us see false alarms and missed failures, shows prediction errors
 
 # Load data
-df = pd.read_csv("/Users/margarietemalenda/personal_projects/predictive-maintenance-ml/data/ai4i2020.csv")
+df = pd.read_csv("/data/ai4i2020.csv")
 
 # Drop non-useful columns, like labels
 # replace the old dataframe with an updated one
